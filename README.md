@@ -1,2 +1,2 @@
-# P5.js sketches for alevelcomputerscience.co.uk
+# Code for alevelcomputerscience.co.uk
 
