@@ -6,3 +6,4 @@
 - [ ] Add more algorithms to algorithms section
 - [ ] Add more data structures to data structures section
 - [ ] Rewrite site in react???
+- [ ] Add a way for users to submit their own content
