@@ -1,24 +1,9 @@
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
-const express = require('express');
-const bodyParser = require('body-parser');
-const compression = require('compression');
-var search = require('./routes/search');
-var comment = require('./routes/comments');
-var boilerplate = require('./routes/boilerplate');
-const app = express();
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({
-	extended: true
-}))
-app.use(compression());
-app.use('/',boilerplate);
-app.use('/',search);
-app.use('/',comment);
+const app = require('./app');
 
 app.use(function (req, res, next) {
-	console.log(req.url);
 	res.status(404).sendFile("/var/www/html/not-found-page.html");
 });
 const privateKey = fs.readFileSync('privkey.pem', 'utf8');
