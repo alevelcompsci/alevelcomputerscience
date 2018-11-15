@@ -1,0 +1,30 @@
+{
+  "name": "alevelcomputerscience",
+  "version": "1.0.0",
+  "description": "- [ ] Add Theory Content\r - [ ] Add more algorithms to algorithms section\r - [ ] Add more data structures to data structures section",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alevelcompsci/alevelcomputerscience.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alevelcompsci/alevelcomputerscience/issues"
+  },
+  "homepage": "https://github.com/alevelcompsci/alevelcomputerscience#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "directory-tree": "^2.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.12",
+    "nodemon": "^1.18.6"
+  }
+}
